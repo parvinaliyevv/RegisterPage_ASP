@@ -1,0 +1,45 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model User
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="form">
+            <form asp-controller="Register" asp-action="SignUp" method="post">
+                <h2>Sign Up</h2>
+
+                <div class="input-box">
+                    <input type="text" asp-for="Username" required="required"/>
+                    <span class="custom-placeholder">Username</span>
+                    <i></i>
+                   <span asp-validation-for="Username"></span>
+                </div>
+                <div class="input-box">
+                    <input type="text" asp-for="Email" required="required" />
+                    <span class="custom-placeholder">Email</span>
+                    <i></i>
+                   <span asp-validation-for="Email"></span>
+                </div>
+                <div class="input-box">
+                    <input type="password" asp-for="Password" required="required" />
+                    <span class="custom-placeholder">Password</span>
+                    <i></i>
+                   <span asp-validation-for="Password"></span>
+                </div>
+
+                <input type="submit" value="Register" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

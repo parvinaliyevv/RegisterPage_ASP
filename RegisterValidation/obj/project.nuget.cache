@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gxi4lIkYMv0fWMCXWl4+YNhm2Z7+AdxMZM4KhaQAu1OtbLVvJwjnBJH+FLCrSde/jBnBQ3kqSeoX/D3Ahps1TQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP\\source\\repos\\RegisterValidation\\RegisterValidation\\RegisterValidation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
