@@ -5,15 +5,7 @@ public class RegisterController : Controller
     public IActionResult Index() => View();
 
 
-    [HttpGet]
-    public IActionResult SignUp()
-    {
-        return View();
-    }
+    public IActionResult SignUp() => View();
 
-    [HttpPost]
-    public IActionResult SignUp(User user)
-    {
-        return View();
-    }
+    [HttpPost] public IActionResult SignUp(User user) => View();
 }
