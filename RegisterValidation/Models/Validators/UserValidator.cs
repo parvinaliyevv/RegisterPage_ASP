@@ -12,6 +12,6 @@ public class UserValidator: AbstractValidator<User>
 
         RuleFor(user => user.Password).MinimumLength(5).WithMessage("Password length cannot be less than 5");
         RuleFor(user => user.Password).MaximumLength(30).WithMessage("Password length cannot be more than 30");
-        RuleFor(user => user.Username).Matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$");
+        RuleFor(user => user.Password).Matches("^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$");
     }
 }
